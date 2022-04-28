@@ -88,8 +88,7 @@ form button{
 
 .fourth-container{
   background-color: rgb(26,43,66);
-  height: 60vh;
-  /* text-align: center; */
+  height: 70vh;
   padding: 60px;
 }
 
@@ -141,4 +140,24 @@ form button{
   width: 100%;
   font-weight: bold;
   padding: 15px;
+}
+
+/* .fifth_container{
+  padding: 20;
+} */
+
+.fifth_container hr{
+  background-color: #1a35a7;
+  font-weight: bold;
+  width: 100px;
+  height: 3px !important;
+  margin: 10px auto 30px;
+  text-align: center;
+}
+
+.fifth_container h2{
+  margin-top: 40px;
+  color: #1a35a7;
+  font-weight: bold;
+  text-align: center;
 }
