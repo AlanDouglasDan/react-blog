@@ -142,10 +142,6 @@ form button{
   padding: 15px;
 }
 
-/* .fifth_container{
-  padding: 20;
-} */
-
 .fifth_container hr{
   background-color: #1a35a7;
   font-weight: bold;
@@ -160,4 +156,30 @@ form button{
   color: #1a35a7;
   font-weight: bold;
   text-align: center;
+}
+
+.fifth-grid{
+  padding: 0px 200px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 20px;
+}
+
+.fifth-grid-item{
+  padding: 30px;
+  background-color: #d9dac9;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.fifth-grid-item b{
+  font-size: 120%;
+  text-transform: uppercase;
+}
+
+.fifth-grid-item p{
+  margin-top: 1rem;
 }
