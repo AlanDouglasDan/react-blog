@@ -233,3 +233,26 @@ form button {
 button{
   border: none !important;
 }
+
+footer{
+  background-color: black;
+  font-size: 75%;
+  color: white;
+  text-align: center;
+}
+
+.bold-footer{
+  padding: 20px 30%;
+}
+
+.sixth-grid{
+  padding: 0 !important;
+  padding-bottom: 10px !important;
+}
+
+footer hr{
+  background-color: #96cfed;
+  width: 60%;
+  height: 2px !important;
+  margin: 0px auto 20px;
+}

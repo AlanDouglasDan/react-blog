@@ -1,6 +1,7 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 import Fifth from "./Fifth";
+import Footer from "./Footer";
 import Fourth from "./Fouth";
 import Header from "./Header";
 import Second from "./Second";
@@ -18,6 +19,7 @@ function App() {
       <Fifth />
       <Sixth />
       <Seventh />
+      <Footer />
     </div>
   );
 }
