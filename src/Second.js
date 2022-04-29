@@ -1,4 +1,3 @@
-import "bootstrap/dist/css/bootstrap.min.css";
 import { Form, Button } from "react-bootstrap";
 import background from "./img/first.jpeg";
 
@@ -47,7 +46,7 @@ function Second() {
           </Form.Group>
 
           <Button variant="success" type="submit">
-            Submit
+            ENQUIRE NOW
           </Button>
         </Form>
       </div>

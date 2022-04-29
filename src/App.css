@@ -46,59 +46,60 @@ header {
   padding: 5px 20px 20px;
 }
 
-form p, .small-note{
+form p,
+.small-note {
   text-align: center;
   font-size: small;
 }
 
-.asteric{
+.asteric {
   color: #e69316;
 }
 
-form button{
+form button {
   width: 100%;
-  background-color: #02B500 !important;
+  background-color: #02b500 !important;
 }
 
-.big-text{
+.big-text {
   font-size: 2rem;
   padding: 50px 0 10px;
   font-weight: bold;
   line-height: 1.75rem;
 }
 
-.third_container{
+.third_container {
   max-width: 60% !important;
   text-align: center;
   margin: 0 auto;
   font-size: 1.2rem;
 }
 
-.colorful-banner{
-  background-color: rgb(163,145,97);
+.colorful-banner {
+  background-color: rgb(163, 145, 97);
   color: white;
   border-radius: 20px;
   padding: 20px 30px;
   margin-bottom: 40px;
 }
 
-.colorful-banner p{
+.colorful-banner p {
   margin: 0;
 }
 
-.fourth-container{
-  background-color: rgb(26,43,66);
+.fourth-container {
+  background-color: rgb(26, 43, 66);
   height: 70vh;
   padding: 60px;
 }
 
-.fourth-container h2{
+.fourth-container h2 {
   color: #a39161;
   font-weight: bold;
   text-align: center;
 }
 
-.fourth-container hr{
+.fourth-container hr {
   background-color: #a39161;
   font-weight: bold;
   width: 100px;
@@ -107,7 +108,7 @@ form button{
   text-align: center;
 }
 
-.grid-2{
+.grid-2 {
   display: grid;
   grid-template-columns: 4fr 3fr;
   grid-gap: 20px;
@@ -123,26 +124,26 @@ form button{
   font-size: 120%;
 }
 
-.grid-item img{
+.grid-item img {
   width: 100%;
   height: 100%;
 }
 
-.block-four{
+.block-four {
   max-width: 75%;
   margin: auto;
 }
 
-.grid-item button{
-  background-color: rgb(163,145,97);
+.grid-item button {
+  background-color: rgb(163, 145, 97);
   color: white;
-  border-color: rgb(163,145,97);
+  border-color: rgb(163, 145, 97);
   width: 100%;
   font-weight: bold;
   padding: 15px;
 }
 
-.fifth_container hr{
+.fifth_container hr {
   background-color: #1a35a7;
   font-weight: bold;
   width: 100px;
@@ -151,14 +152,14 @@ form button{
   text-align: center;
 }
 
-.fifth_container h2{
+.fifth_container h2 {
   margin-top: 40px;
   color: #1a35a7;
   font-weight: bold;
   text-align: center;
 }
 
-.fifth-grid{
+.fifth-grid {
   padding: 0px 200px;
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -166,20 +167,69 @@ form button{
   grid-gap: 20px;
 }
 
-.fifth-grid-item{
+.fifth-grid-item {
   padding: 30px;
-  background-color: #d9dac9;
+  background-color: rgb(241, 241, 241);
   text-align: center;
   justify-content: center;
   align-items: center;
   display: flex;
 }
 
-.fifth-grid-item b{
+.fifth-grid-item b {
   font-size: 120%;
   text-transform: uppercase;
 }
 
-.fifth-grid-item p{
+.fifth-grid-item p {
   margin-top: 1rem;
+}
+
+.bold-container b {
+  font-size: 120%;
+}
+
+.bold-container {
+  max-width: 600px;
+  margin: auto;
+}
+
+.fifth_container {
+  text-align: center;
+}
+
+.bold-container button {
+  background-color: rgb(163, 145, 97);
+  color: white;
+  border-color: rgb(163, 145, 97);
+  margin-top: 10px;
+  margin-bottom: 50px;
+  padding: 10px 50px;
+  font-weight: bold;
+}
+
+.sixth-container {
+  background-color: rgb(30, 36, 55);
+  height: 80vh;
+}
+
+.seventh_container {
+  max-width: 50vw;
+  margin: 50px auto;
+  border: 0.0625rem solid #a3bac6;
+  background-color: #ddd;
+}
+
+.seventh_container form{
+  padding: 20px;
+}
+
+.seventh_container button{
+  width: auto;
+  margin: auto;
+  display: flex;
+}
+
+button{
+  border: none !important;
 }
