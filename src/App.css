@@ -26,7 +26,7 @@ header {
 
 .inner_form {
   right: 40px;
-  top: 100px;
+  top: 130px;
   position: absolute;
   background-color: #ddd;
   width: 30%;
@@ -124,7 +124,7 @@ form button {
   font-size: 120%;
 }
 
-.grid-item img {
+img {
   width: 100%;
   height: 100%;
 }
@@ -211,6 +211,11 @@ form button {
 .sixth-container {
   background-color: rgb(30, 36, 55);
   height: 80vh;
+  color: white;
+  display: grid;
+  place-items: center;
+  font-size: 120%;
+  padding: 5%;
 }
 
 .seventh_container {
@@ -220,39 +225,60 @@ form button {
   background-color: #ddd;
 }
 
-.seventh_container form{
+.seventh_container form {
   padding: 20px;
 }
 
-.seventh_container button{
+.seventh_container button {
   width: auto;
   margin: auto;
   display: flex;
 }
 
-button{
+button {
   border: none !important;
 }
 
-footer{
+footer {
   background-color: black;
   font-size: 75%;
   color: white;
   text-align: center;
 }
 
-.bold-footer{
+.bold-footer {
   padding: 20px 30%;
 }
 
-.sixth-grid{
+.sixth-grid {
   padding: 0 !important;
   padding-bottom: 10px !important;
 }
 
-footer hr{
+footer hr {
   background-color: #96cfed;
   width: 60%;
   height: 2px !important;
   margin: 0px auto 20px;
+}
+
+.sixth-gridd {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+}
+
+.sixth-grid-item {
+  padding: 30px;
+  display: grid;
+  place-items: center;
+}
+
+.nav {
+  justify-content: flex-end;
+}
+
+.nav-link {
+  color: black;
+  text-transform: uppercase;
 }

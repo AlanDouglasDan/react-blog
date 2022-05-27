@@ -1,8 +1,9 @@
 import { Button } from "react-bootstrap";
+import img from "./img/third.jpeg";
 
 function Sixth() {
   return (
-    <div className="fifth_container">
+    <div className="fifth_container" id="why-va">
       <h2>WHY CHOOSE US</h2>
       <hr className="mb-5"></hr>
 
@@ -54,6 +55,14 @@ function Sixth() {
             </p>
           </div>
         </div>
+
+        <div className="fifth-grid-item">
+          <div>
+            <p>
+            We also are in partnerships with over 30 real estate investment & development firms across Nigeria.
+            </p>
+          </div>
+        </div>
       </div>
 
       <div className="bold-container">
@@ -66,7 +75,26 @@ function Sixth() {
         </div>
       </div>
 
-      <div className="sixth-container"></div>
+      <div className="sixth-container">
+        <div className="sixth-gridd">
+          <div className="sixth-grid-item">
+            <img src={img} alt=""></img>
+          </div>
+          <div className="sixth-grid-item">
+            <div>
+              V.A. Properties and homes is fast becoming a leading brand at the
+              forefront of the Nigerian real estate market since 2020, delivering
+              residential, commercial and leisure properties in Lagos and its
+              environs and having expanded to Akwa-Ibom likewise providing
+              investment opportunities.
+            </div>
+            <div>
+              We also are in partnerships with over 30 real estate investment &
+              development firms across Nigeria.
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }

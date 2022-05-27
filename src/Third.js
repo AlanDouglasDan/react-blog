@@ -1,6 +1,6 @@
 function Third() {
   return (
-    <div className="container third_container">
+    <div className="container third_container" id="offer">
       <div className="big-text mb-3">HERO PAGE</div>
 
       <p className="mb-5">
