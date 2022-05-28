@@ -13,7 +13,7 @@ function Fourth() {
             <img src={img} alt="img"></img>
           </div>
 
-          <div className="grid-item">
+          <div className="grid-item another-grid">
             <div>
               <ul>
                 <li>Lorem ipsum dolor amet ini</li>
@@ -22,9 +22,14 @@ function Fourth() {
                 <li>Lorem ipsum dolor amet ini</li>
                 <li>Lorem ipsum dolor amet ini</li>
               </ul>
-              <Button type="button">
-                ENQUIRE NOW
-              </Button>
+              {/* <ListGroup>
+                <ListGroup.Item>Cras justo odio</ListGroup.Item>
+                <ListGroup.Item>Dapibus ac facilisis in</ListGroup.Item>
+                <ListGroup.Item>Morbi leo risus</ListGroup.Item>
+                <ListGroup.Item>Porta ac consectetur ac</ListGroup.Item>
+                <ListGroup.Item>Vestibulum at eros</ListGroup.Item>
+              </ListGroup> */}
+              <Button type="button">ENQUIRE NOW</Button>
             </div>
           </div>
         </div>

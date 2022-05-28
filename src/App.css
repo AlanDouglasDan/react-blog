@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Orelega+One&display=swap");
-/* @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"); */
 
 .App {
   font-family: "Roboto", sans-serif;
@@ -29,7 +28,7 @@ header {
   top: 130px;
   position: absolute;
   background-color: #ddd;
-  width: 30%;
+  width: 45%;
 }
 
 .form_header {
@@ -91,6 +90,7 @@ form button {
   background-color: rgb(26, 43, 66);
   height: 70vh;
   padding: 60px;
+  display: grid;
 }
 
 .fourth-container h2 {
@@ -281,4 +281,100 @@ footer hr {
 .nav-link {
   color: black;
   text-transform: uppercase;
+}
+
+.form_container-2 {
+  display: none;
+}
+
+@media only screen and (max-width: 900px) {
+  header {
+    height: 5vh;
+  }
+  .main_header {
+    padding: 0.5rem;
+  }
+  .form_container {
+    height: 60vh;
+  }
+  .fourth-container, .sixth-container {
+    height: 50vh;
+  }
+  .block-four {
+    max-width: 100%;
+  }
+  .fifth-grid {
+    padding: 0 25px;
+  }
+  .sixth-container {
+    padding: 0;
+  }
+  .sixth-grid-item{
+    grid-gap: 10px;
+    padding: 15px;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  body {
+    font-size: 0.7rem;
+  }
+  .form_container {
+    display: none;
+  }
+  .form-container-2 {
+    padding: 0 10%;
+  }
+  .inner_form {
+    position: relative;
+    width: 100%;
+    top: 0;
+    right: 0;
+  }
+  .full-bg-img {
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+  }
+  .third_container {
+    max-width: 100% !important;
+    padding: 0 10%;
+    font-size: 1rem;
+  }
+  .fourth-container {
+    padding: 10px;
+    height: 90vh;
+  }
+  .grid-2 , .another-grid{
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .grid-item {
+    justify-content: left;
+  }
+  .fifth-grid {
+    grid-template-columns: 1fr;
+    padding: 0 20%;
+  }
+  .sixth-gridd {
+    grid-template-columns: 1fr;
+    height: 70vh;
+  }
+  .sixth-container {
+    height: 70vh;
+    padding: 0 10%;
+  }
+  .seventh_container {
+    max-width: 80vw;
+  }
+  header {
+    border: none;
+    text-align: center;
+  }
+  .nav {
+    justify-content: center;
+  }
+  .fifth-grid-item {
+    padding: 15px;
+  }
 }
