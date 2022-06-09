@@ -6,7 +6,7 @@ import { faPhone } from "@fortawesome/free-solid-svg-icons";
 
 function Footer() {
   return (
-    <footer className="footer">
+    <footer id="contact" className="footer">
       <div className="bold-footer">
         <b>
           For listings in Lagos specifically, you can contact our mother company
