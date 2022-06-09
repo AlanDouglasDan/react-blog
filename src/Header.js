@@ -9,7 +9,7 @@ function Header() {
         <Nav className="nav-bar">
           <Nav.Link href="#offer">Offer</Nav.Link>
           <Nav.Link href="#why-uyo">why uyo</Nav.Link>
-          <Nav.Link href="#why-va">why v.a properties</Nav.Link>
+          <Nav.Link href="#why-va">why us</Nav.Link>
           <Nav.Link href="#contact">contact</Nav.Link>
         </Nav>
       </div>
