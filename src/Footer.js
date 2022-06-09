@@ -9,8 +9,7 @@ function Footer() {
     <footer id="contact" className="footer">
       <div className="bold-footer">
         <b>
-          For listings in Lagos specifically, you can contact our mother company
-          through ...
+          For listings in Lagos specifically, click the link to be redirected to a portfolio
         </b>
       </div>
 

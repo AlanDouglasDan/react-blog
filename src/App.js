@@ -13,11 +13,12 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <Second />
+      
       <Third />
-      <Fourth />
+      <Second />
       <Fifth />
       <Sixth />
+      {/* <Fourth /> */}
       <Seventh />
       <Footer />
     </div>

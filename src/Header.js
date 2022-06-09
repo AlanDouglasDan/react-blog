@@ -2,7 +2,7 @@ import { Nav } from "react-bootstrap";
 
 function Header() {
   return (
-    <div>
+    <div class="bg-header">
       <header className="main_header">V.A Properties and Homes</header>
 
       <div className="nav-container text-right">

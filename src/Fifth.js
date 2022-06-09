@@ -1,3 +1,8 @@
+import easy from "./img/easy_accessibility.jpg";
+import harmony from "./img/harmony.jpg";
+import rapid from "./img/rapid.jpeg";
+import safety from "./img/safety.jpg";
+
 function Fifth() {
   return (
     <div className="fifth_container" id="why-uyo">
@@ -6,7 +11,7 @@ function Fifth() {
         <hr className="mb-5"></hr>
 
         <div className="fifth-grid">
-          <div className="fifth-grid-item">
+          <div className="fifth-grid-item" style={{ backgroundImage: `url(${safety})` }}>
             <div>
               <b>Safety & security</b>
               <p>
@@ -17,7 +22,7 @@ function Fifth() {
             </div>
           </div>
 
-          <div className="fifth-grid-item">
+          <div className="fifth-grid-item" style={{ backgroundImage: `url(${harmony})` }}>
             <div>
               <b>Diversity & Communal Harmony</b>
               <p>
@@ -29,7 +34,7 @@ function Fifth() {
             </div>
           </div>
 
-          <div className="fifth-grid-item">
+          <div className="fifth-grid-item" style={{ backgroundImage: `url(${easy})` }}>
             <div>
               <b>Smooth & easy Accessibility</b>
               <p>
@@ -40,7 +45,7 @@ function Fifth() {
             </div>
           </div>
 
-          <div className="fifth-grid-item">
+          <div className="fifth-grid-item" style={{ backgroundImage: `url(${rapid})` }}>
             <div>
               <b>Rapid development tendencies</b>
               <p>

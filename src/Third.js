@@ -1,26 +1,26 @@
 function Third() {
   return (
-    <div className="container third_container" id="offer">
-      <div className="big-text mb-3">HERO PAGE</div>
+    <div>
+      <div className="big-text mb-3">Welcome to V.A Properties & Homes</div>
 
-      <p className="mb-5">
-        Welcome and thank you for visiting V.A Properties & Homes Uyo, and your
-        best resource for buying, renting & leasing land & real estate in Uyo,
-        Akwa-Ibom State.
-      </p>
+      <div className="container third_container" id="offer">
+        <p className="mb-5">
+          We connect buyers to properties and investors to opportunities. We are
+          your best resort for buying, renting & leasing land & property in Uyo,
+          Akwa-Ibom State.
+        </p>
 
-      <p>Invest in Land & Property in Uyo from NGN 2,000,000 (USD 4,700)</p>
-
-      <p className="small-note mb-5">
+        {/* <p className="small-note mb-5">
         <em>
           <span class="asteric">*&nbsp;</span>
             Terms and conditions apply
         </em>
-      </p>
+      </p> */}
 
-      <div className="colorful-banner">
+        {/* <div className="colorful-banner">
         <h2><b>YOUR INSPECTION TRIP IS ON US!</b></h2>
         <p><small>Book now and we will go an extra mile to get you a free Inspection trip to and from Rejoice Gardens Estate.</small></p>
+      </div> */}
       </div>
     </div>
   );

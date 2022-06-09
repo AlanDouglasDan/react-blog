@@ -1,5 +1,5 @@
 import img from "./img/second.jpeg";
-import { Button } from "react-bootstrap";
+// import { Button } from "react-bootstrap";
 
 function Fourth() {
   return (
@@ -22,14 +22,6 @@ function Fourth() {
                 <li>Lorem ipsum dolor amet ini</li>
                 <li>Lorem ipsum dolor amet ini</li>
               </ul>
-              {/* <ListGroup>
-                <ListGroup.Item>Cras justo odio</ListGroup.Item>
-                <ListGroup.Item>Dapibus ac facilisis in</ListGroup.Item>
-                <ListGroup.Item>Morbi leo risus</ListGroup.Item>
-                <ListGroup.Item>Porta ac consectetur ac</ListGroup.Item>
-                <ListGroup.Item>Vestibulum at eros</ListGroup.Item>
-              </ListGroup> */}
-              <Button type="button">ENQUIRE NOW</Button>
             </div>
           </div>
         </div>
